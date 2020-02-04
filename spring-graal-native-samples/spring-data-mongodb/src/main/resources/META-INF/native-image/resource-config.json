@@ -1,0 +1,20 @@
+{
+  "bundles": [
+
+  ],
+  "resources": [
+    {"pattern": "META-INF/resources/webjars/.*"},
+    {"pattern": "banner.txt"},
+    {"pattern": "messages/.*"},
+    {"pattern": "static/.*"},
+    {"pattern": "templates/.*"},
+    {"pattern": "org/springframework/web/util/HtmlCharacterEntityReferences.properties"},
+    {"pattern": "templates/owners/ownersList.html"},
+    {"pattern": "org/springframework/http/mime.types"},
+
+    {"pattern":".*/mbeans-descriptors.xml$"},
+    {"pattern":".*/*.properties$"},
+    {"pattern":".*/*.dtd$"},
+    {"pattern":".*/*.xsd$"}
+  ]
+}
